@@ -4,25 +4,46 @@ export default class Register extends Component {
   render() {
     return (
       <div>
-        <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div className="modal-dialog" role="document">
-            <div className="modal-content">
-            <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
+            <div className="modal" id="loginModal" tabIndex="-1">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+
+                        <div className="form-simple">
+                            <div className="card">
+
+                                <div className="pt-3 grey lighten-2">
+                                    <button className="close" data-dismiss="modal">&times;</button>
+                                    <div className="row d-flex justify-content-start">
+                                        <h3 className="deep-grey-text mt-3 mb-4 pb-1 mx-5">Log in</h3>
+                                    </div>
+                                </div>
+
+                        
+                                <div className="card-body mx-4 mt-4">
+
+                                    <div className="md-form">
+                                        <input type="text" id="inputUserName" className="form-control" />
+                                        <label for="Form-email4">Your email</label>
+                                    </div>
+                        
+                                    <div className="md-form pb-3">
+                                        <input type="password" id="inputPassword" className="form-control" />
+                                        <label for="Form-pass4">Your password</label>
+                                        <p className="font-small grey-text d-flex justify-content-end">Forgot <a href="#" className="dark-grey-text font-weight-bold ml-1"> Password?</a></p>
+                                    </div>
+                        
+                                    <div className="text-center mb-4">
+                                        <button type="button" className="btn btn-primary btn-block z-depth-2" id="login-submit" data-dismiss="modal">Log in</button>
+                                    </div>
+                                    <p className="font-small grey-text d-flex justify-content-center">Don't have an account? <a href="#" className="dark-grey-text font-weight-bold ml-1"> Sign up</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div className="modal-body">
-                ...
-            </div>
-            <div className="modal-footer">
-                <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" className="btn btn-primary">Save changes</button>
-            </div>
-            </div>
-        </div>
-        </div>
       </div>
     );
   }

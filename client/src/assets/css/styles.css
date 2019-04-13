@@ -21,3 +21,7 @@
   .Site-content {
     flex: 1;
   }
+
+  .close {
+      margin: 15px;
+  }
