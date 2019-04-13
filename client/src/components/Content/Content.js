@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import OpenRegister from "../Buttons/OpenRegister"
 
 export default class Content extends Component {
     render() {
@@ -14,6 +15,7 @@ export default class Content extends Component {
                         </div>
                     </div>
                 </div>
+                <OpenRegister />
             </div>
         )
     }
