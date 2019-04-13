@@ -1,0 +1,21 @@
+.header {
+    text-align: center;
+    border: black 2px dotted;
+}
+
+.footer {
+    text-align: center;
+    border: black 2px dotted;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+  }
