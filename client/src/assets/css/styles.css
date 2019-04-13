@@ -10,12 +10,14 @@
     grid-row-end: 3;
 }
 
+/* Set for sticky footer, wraps whole site page */
 .Site {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
   
+  /* Set for sticky footer, wraps the React components, leave footer outside of it */
   .Site-content {
     flex: 1;
   }
