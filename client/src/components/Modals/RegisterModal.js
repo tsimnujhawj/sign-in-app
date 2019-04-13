@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Register extends Component {
+export default class RegisterModal extends Component {
   render() {
     return (
       <div>
@@ -14,7 +14,7 @@ export default class Register extends Component {
                                 <div className="pt-3 grey lighten-2">
                                     <button className="close" data-dismiss="modal">&times;</button>
                                     <div className="row d-flex justify-content-start">
-                                        <h3 className="deep-grey-text mt-3 mb-4 pb-1 mx-5">Log in</h3>
+                                        <h3 className="deep-grey-text mt-3 mb-4 pb-1 mx-5">Login</h3>
                                     </div>
                                 </div>
 
