@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 import Content from "../Content/Content"
-import RegisterModal from "../Modals/RegisterModal"
+import ModalContainer from "../Modals/ModalContainer"
 
 export default class BodyContainer extends Component {
 render() {
     return (
         <div>
             <Content />
-            <RegisterModal />
+            <ModalContainer />
         </div>
     )
 }
