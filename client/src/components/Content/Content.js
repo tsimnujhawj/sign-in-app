@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import OpenRegisterBtn from "../Buttons/OpenRegisterBtn"
+import OpenLoginBtn from '../Buttons/OpenLoginBtn';
 
 export default class Content extends Component {
     render() {
@@ -15,7 +15,8 @@ export default class Content extends Component {
                         </div>
                     </div>
                 </div>
-                <OpenRegisterBtn />
+                <OpenLoginBtn buttonName="Login"/>
+                <OpenLoginBtn buttonName="Register"/>
             </div>
         )
     }
