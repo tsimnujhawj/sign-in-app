@@ -6,7 +6,7 @@ export default class OpenLoginBtn extends Component {
     {
         super(props)
         this.state = {
-
+            componentToRender: this.props.buttonName
         }
     }
   render() {
@@ -15,7 +15,7 @@ export default class OpenLoginBtn extends Component {
             <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#loginModal">
                 {this.props.buttonName}
             </button>
-            <ModalContainer buttonName={this.props.buttonName}/>
+            <ModalContainer />
         </div>
     )
   }
