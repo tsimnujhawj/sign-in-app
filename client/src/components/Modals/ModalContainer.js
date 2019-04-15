@@ -16,6 +16,7 @@ export default class ModalContainer extends Component {
             <div className="modal" id="loginModal" tabIndex="-1">
                 <div className="modal-dialog">
                     <div className="modal-content">
+                    
                     <h1>{this.state.foo}</h1>
                     {/* Display Login/Register/Password Reset modal content */}
                     <LoginModal />
