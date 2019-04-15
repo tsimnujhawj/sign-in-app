@@ -7,7 +7,7 @@ export default class ModalContainer extends Component {
     {
         super(props);
         this.state = {
-            modalType: "login"
+
         }
     }
 
@@ -18,7 +18,7 @@ export default class ModalContainer extends Component {
                     <div className="modal-content">
 
                     {/* Display Login/Register/Password Reset modal content */}
-                    
+                    {this.props.buttonName === "Login" ? <LoginModal /> : <RegisterModal />}
 
                     </div>
                 </div>

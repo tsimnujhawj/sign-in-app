@@ -17,8 +17,8 @@ export default class Content extends Component {
                         </div>
                     </div>
                 </div>
-                <OpenLoginBtn buttonName="Login"/>
-                <OpenLoginBtn buttonName="Register"/>
+                <OpenLoginBtn buttonName="Login" />
+                <OpenLoginBtn buttonName="Register" />
             </div>
         )
     }
