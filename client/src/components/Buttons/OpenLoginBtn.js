@@ -15,6 +15,7 @@ export default class OpenLoginBtn extends Component {
             <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#loginModal">
                 {this.props.buttonName}
             </button>
+            {/* Pass prop to container to render needed component... */}
             <ModalContainer />
         </div>
     )
