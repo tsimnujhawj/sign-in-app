@@ -16,7 +16,7 @@ export default class OpenLoginBtn extends Component {
                 {this.props.buttonName}
             </button>
             {/* Pass prop to container to render needed component... */}
-            <ModalContainer />
+            <ModalContainer propToRender="Name"/>
         </div>
     )
   }
