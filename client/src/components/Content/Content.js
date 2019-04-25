@@ -3,6 +3,8 @@ import OpenLoginBtn from '../Buttons/OpenLoginBtn';
 
 // https://joshblog.net/2018/conditional-rendering-with-react-and-jsx/
 
+// TODO: rename
+
 export default class Content extends Component {
     render() {
         return (
