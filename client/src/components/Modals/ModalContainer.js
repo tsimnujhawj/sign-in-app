@@ -7,7 +7,7 @@ export default class ModalContainer extends Component {
     {
         super(props);
         this.state = {
-            
+            // modal name
         }
     }
 
